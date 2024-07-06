@@ -1153,7 +1153,7 @@ class DeepEmotionRecognizer(EmotionRecognizer):
 
 if __name__ == "__main__":
     rec = DeepEmotionRecognizer(emotions=['angry', 'sad', 'neutral', 'ps', 'happy'],
-                                epochs=10, verbose=0)
+                                epochs=170, verbose=0)
     rec.train(override=False)
     print("Test accuracy score:", rec.test_score() * 100, "%")
     
