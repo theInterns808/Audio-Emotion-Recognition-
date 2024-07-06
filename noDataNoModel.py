@@ -505,3 +505,4 @@ print(rec.confusion_matrix())
 # predict angry audio sample
 prediction = rec.predict('data/validation/Actor_10/03-02-05-02-02-02-10_angry.wav')
 print(f"Prediction: {prediction}")
+
